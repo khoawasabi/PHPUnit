@@ -1,7 +1,6 @@
 # see http://about.travis-ci.org/docs/user/languages/php/ for more hints
 sudo: required
 language: php
-
 # list any PHP version you want to test against
 php:
   # using major version aliases
