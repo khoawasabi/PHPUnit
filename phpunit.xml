@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="./tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="Sum Test">
+            <directory>./tests/</directory>  <!-- suffix='.php' to manually choose every files ending with .php could be read in  -->
+            <!-- http://stackoverflow.com/questions/4047199/how-can-i-get-phpunit-to-run-tests-from-all-files-in-a-folder -->
+        </testsuite>
+    </testsuites>
+</phpunit>
+
